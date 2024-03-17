@@ -4,6 +4,11 @@
   font-family: Arial;
   border: border-box;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 /* navbar   */
 .navbar {
   height: 60px;
@@ -12,6 +17,10 @@
   display: flex;
   align-items: center;
   justify-content:space-evenly;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index: 1000;  
 }
 
 .nav-logo {
@@ -20,7 +29,7 @@
 }
 
 .border {
-  border: 1.5px solid transparent;
+  border: 2pxpx solid transparent;
 }
 
 .border:hover {
@@ -124,6 +133,7 @@
   padding: 8px;
   background-color: #232f3e	;
   color: whitesmoke;
+  margin-top: 60px;
 
 }
 
@@ -200,7 +210,7 @@ margin-left: 10px;
   padding-bottom: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
+
 
   
  }
@@ -229,3 +239,89 @@ margin-left: 10px;
   color: darkcyan;
   text-decoration: underline;
 }
+
+
+/* footer */
+
+footer{
+  margin-top: 20px;
+  
+}
+
+.footer-panel a{
+  background-color: #37475a;
+  color: whitesmoke;
+  text-decoration: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  
+}
+.footer-panel a:hover{
+background-color: #405670;
+}
+
+.footer-content{
+  background-color: #232f3e;
+  color: whitesmoke;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-content ul{
+  margin-top: 25px;
+}
+
+.footer-content ul  a{
+  display: block;
+  color: gainsboro;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+ .footer-content  a:hover{
+ color: white;
+ text-decoration: underline;
+}
+
+.footer-content p{
+  color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: 550;
+} 
+
+.foot-panel-end{
+  background-color: #131921;
+  color: whitesmoke;
+  text-align: center;
+  height: 100px;
+  color:rgb(177, 177, 177);
+  
+
+}
+
+.foot-panel-end a{
+  color:rgb(177, 177, 177);
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.foot-panel-end a:hover{
+  color:rgb(210, 210, 210);
+  text-decoration: underline;
+  }
+
+.options{
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+.copyright{
+  padding-top: 5px;
+  font-size: 0.8rem;
+}
+
